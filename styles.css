@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.764) url(./pic/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+form{
+    padding: 5rem;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.log-all{
+    margin-left: 30rem;
+    padding: 6rem;
+    /* border: 1px solid #d7d2d2; */
+    height: 600px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.user-boxs{
+    padding: 0.5rem;
+}
+
+.name{
+    margin-top: 5rem;
+    outline: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 1rem;
+    width: 280px;
+    height: 45px;
+    border-radius: 6px;
+    background: transparent;
+}
+
+.pass{
+    outline: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 1rem;
+    width: 280px;
+    height: 40px;
+    border-radius: 6px;
+    background: transparent;
+}
+
+.log{
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.log a{
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.word h1 a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.sign h1{
+    color: #fff;
+    font-size: 16px;
+    padding: 1rem;
+    font-weight: 100;
+}
+
+.sign h1 a{
+    color: rgb(208, 255, 0);
+    text-decoration: none;
+}
+
+.sign h1 a:hover{
+    color: #fff;
+    transition: .5s;
+}
+
+.point h1{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+@media (max-width: 600px) {
+    body{
+        background: rgba(0, 0, 0, 0.764) url(./pic/bg1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: darken;
+        overflow: hidden;
+    }
+
+    form{
+        padding: 0;
+        margin-left: 2rem;
+    }
+
+    .log-all{
+        padding: 4rem;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 800px) {
+    body{
+        background: rgba(0, 0, 0, 0.764) url(./pic/bg1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: darken;
+        overflow: hidden;
+    }
+
+    form{
+        padding: 0;
+        margin-left: 2rem;
+    }
+
+    .log-all{
+        padding: 4rem;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 900px) {
+    body{
+        background: rgba(0, 0, 0, 0.764) url(./pic/bg1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: darken;
+        overflow: hidden;
+    }
+
+    form{
+        padding: 0;
+        margin-left: 2rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .log-all{
+        padding: 4rem;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: 0;
+    }
+}
